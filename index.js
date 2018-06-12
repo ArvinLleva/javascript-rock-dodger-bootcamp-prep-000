@@ -125,6 +125,7 @@ function createRock(x) {
  */
 function endGame() {
   clearInterval(gameInterval); // this stops the game
+  ROCKS.
 }
 
 function moveDodger(e) {
