@@ -127,7 +127,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval); // this stops the game
   ROCKS.forEach(function(rock) {rock.remove()}) // this provides a callback once for each element present in the array in ascending order
-  document.removeEventListener('keydown',moveDodger);
+  window.removeEventListener('keydown',moveDodger);
   alert('YOU LOSE!');
 }
 
