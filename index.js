@@ -127,7 +127,7 @@ function endGame() {
   clearInterval(gameInterval); // this stops the game
   ROCKS.forEach(function(rock) {rock.remove()}) // this provides a callback once for each element present in the array in ascending order
   document.removeEventListener('keydown',moveDodger);
-  alert()
+  alert('YOU LOSE!');
 }
 
 function moveDodger(e) {
@@ -139,6 +139,7 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
+   
 }
 
 function moveDodgerLeft() {
