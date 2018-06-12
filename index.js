@@ -143,13 +143,13 @@ function moveDodger(e) {
    if(e.which === LEFT_ARROW){
      e.preventDefault(); // this continues to prograte as normal until the stopPropagation is called
      e.stopPropagation();
-     moveDodgerLeft();
+     moveDodgerLeft()
    }
    
    if(e.which === RIGHT_ARROW){
      e.preventDefault();
      e.stopPropagation();
-     moveDodgerRight();
+     moveDodgerRight()
    }
    
 }
